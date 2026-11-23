@@ -1,0 +1,45 @@
+# ── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# ── Virtual environments ──────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment & secrets ─────────────────────
+.env
+.env.*
+*.secret
+
+# ── Docker / Compose ──────────────────────────
+*.log
+docker-compose.override.yml
+
+# ── IDE / OS ──────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Testing ───────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ── Screenshots (keep folder, ignore files) ───
+screenshots/*.png
+screenshots/*.jpg

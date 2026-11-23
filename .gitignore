@@ -1,0 +1,43 @@
+# Git ignore rules for the Visitor Counter project
+# ─────────────────────────────────────────────────
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets & local env
+.env
+*.secret
+
+# Docker override
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Screenshots (keep folder structure, ignore image files)
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+screenshots/*.gif
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
